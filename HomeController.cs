@@ -7,7 +7,7 @@ namespace SportsStore.Controllers
     public class HomeController : Controller
     {
 
-        private IStoreRepository repository;
+        private IStoreRepository repository : xxxxx;
 
         public HomeController(IStoreRepository repo)
         {
